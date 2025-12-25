@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project focuses on building a **deep learning–based time series forecasting model** to predict the **monthly mean total sunspot number for the next month**. The dataset used (`Sunspot.csv`) contains historical monthly sunspot observations **spanning over 3,200 months, from 1749 to 2018**, where each record represents a date and its corresponding mean total sunspot number. The objective is to learn long-term temporal patterns in solar activity and generate accurate short-term forecasts.
+This project focuses on building a **deep learning–based time series forecasting model** to predict the **monthly mean total sunspot number for the next month**. The dataset used (`Sunspot.csv`) contains historical monthly sunspot observations **spanning over 3,200 months, from the year 1749 to 2018**, where each record represents a date and its corresponding mean total sunspot number. The objective is to learn long-term temporal patterns in solar activity and generate accurate short-term forecasts.
 
 ### Dataset and Data Splitting
 - The dataset contains just over **3,200 monthly observations**.
