@@ -9,7 +9,7 @@ This project focuses on building a **deep learning–based time series forecasti
 
 ### Feature Engineering
 - Feature–label pairs were generated using **TensorFlow’s windowing approach**.
-- A **window size of 30** was applied:
+- A **window size of 30 + 1** was applied:
   - **30 previous months** of sunspot numbers were used as input features.
   - **1 target value** (current month’s sunspot number) was used as the label.
 - This setup enables the model to learn temporal dependencies in solar activity.
